@@ -13,7 +13,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PjEjercicio5", "..\Ejercici
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PjEjercicio4", "..\Ejercicio4\Ejercicio4\PjEjercicio4.csproj", "{E09CBFF2-C2D2-41DB-AFE3-880A4ABA7A2F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Activities", "Activities\Activities.csproj", "{33E94E59-0A14-4245-8FC6-D0C64CC28889}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Activities", "Activities\Activities.csproj", "{33E94E59-0A14-4245-8FC6-D0C64CC28889}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PjConvertidorNumerosEnLetras", "PjConvertidorNumerosEnLetras\PjConvertidorNumerosEnLetras.csproj", "{CDFC4BEA-6AAA-4040-B86D-063E38E36663}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +47,10 @@ Global
 		{33E94E59-0A14-4245-8FC6-D0C64CC28889}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{33E94E59-0A14-4245-8FC6-D0C64CC28889}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{33E94E59-0A14-4245-8FC6-D0C64CC28889}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CDFC4BEA-6AAA-4040-B86D-063E38E36663}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CDFC4BEA-6AAA-4040-B86D-063E38E36663}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CDFC4BEA-6AAA-4040-B86D-063E38E36663}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CDFC4BEA-6AAA-4040-B86D-063E38E36663}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
