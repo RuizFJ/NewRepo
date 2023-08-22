@@ -60,6 +60,7 @@
             // 
             // btnGuardar
             // 
+            btnGuardar.Enabled = false;
             btnGuardar.Location = new Point(203, 219);
             btnGuardar.Name = "btnGuardar";
             btnGuardar.Size = new Size(75, 23);
@@ -79,6 +80,7 @@
             // 
             // btnEliminar
             // 
+            btnEliminar.Enabled = false;
             btnEliminar.Location = new Point(311, 219);
             btnEliminar.Name = "btnEliminar";
             btnEliminar.Size = new Size(75, 23);
@@ -99,6 +101,7 @@
             // 
             // TxtActividad
             // 
+            TxtActividad.Enabled = false;
             TxtActividad.Location = new Point(122, 264);
             TxtActividad.Name = "TxtActividad";
             TxtActividad.Size = new Size(361, 23);
@@ -106,6 +109,7 @@
             // 
             // lstActividad
             // 
+            lstActividad.Enabled = false;
             lstActividad.FormattingEnabled = true;
             lstActividad.ItemHeight = 15;
             lstActividad.Location = new Point(33, 304);
@@ -118,6 +122,7 @@
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
+            BackColor = SystemColors.ActiveCaption;
             ClientSize = new Size(533, 450);
             Controls.Add(lstActividad);
             Controls.Add(TxtActividad);

@@ -53,6 +53,10 @@ namespace Activities
         private void btnAñdir_Click(object sender, EventArgs e)
         {
             TxtActividad.Focus();
+            btnAñdir.Enabled = true;
+            btnEliminar.Enabled = true;
+            TxtActividad.Enabled = true;
+            btnGuardar.Enabled = true;
         }
     }
 }
