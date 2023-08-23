@@ -98,7 +98,7 @@ string ConvertirNumerosEnLetras(int numero)
     int unidadesDeMillar = numero / 1000 ;
     if (unidadesDeMillar > 0)
     {
-        if (unidadesDeMillar == "1000")
+        if (unidadesDeMillar == 1000)
         {
             numeroEnLetras = "Mil";
         }
